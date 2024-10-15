@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+header h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 36px;
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+.main-image {
+    width: 100%;
+    height: auto;
+}
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.section-title {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.work-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.work-gallery img {
+    width: calc(33.333% - 20px);
+    height: auto;
+}
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.info-section div {
+    width: 48%;
+}
+.info-section p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+.blog-section {
+    margin-top: 40px;
+}
+.blog-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.blog-section p {
+    font-size: 14px;
+    line-height: 1.6;
+}
